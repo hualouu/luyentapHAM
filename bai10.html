@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function countCharacterInArray(array, character) {
+            let count = 0;
+            for (let i = 0; i < array.length; i++) {
+                if (array[i] === character) {
+                    count++;
+                }
+            }
+            if (count > 0) {
+                return count;
+            } else {
+                return -1;
+            }
+        }
+        const myArray = ['a', 'b', 'c', 'd', 'e', 'e', 'f'];
+        const myCharacter = 'e';
+        const myCount = countCharacterInArray(myArray, myCharacter);
+        console.log(myCount); 
+    </script>
+</body>
+
+</html>
