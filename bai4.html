@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function calculateArea(radius) {
+            const pi = 3.14;
+            return pi * radius ** 2;
+        }
+
+        function calculateCircumference(radius) {
+            const pi = 3.14;
+            return 2 * pi * radius;
+        }
+        const myRadius = 5;
+        const myArea = calculateArea(myRadius);
+        const myCircumference = calculateCircumference(myRadius);
+
+        console.log(myArea);
+        console.log(myCircumference); 
+    </script>
+</body>
+
+</html>
