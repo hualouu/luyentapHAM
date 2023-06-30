@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function isDigit(character) {
+            const digitRegex = /^[0-9]$/;
+            return digitRegex.test(character);
+        }
+        const myCharacter = "5";
+        const isMyCharacterDigit = isDigit(myCharacter);
+        console.log(isMyCharacterDigit); 
+    </script>
+</body>
+
+</html>
